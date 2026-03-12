@@ -452,7 +452,7 @@
 		(uuid "0a4d1f84-edfa-4f2e-9d02-84e9cb07d707")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/kicad_libraries/3DModels/USB4745-03-A.stp"
+	(model "${CUSTOM_3DMODEL_DIR}/USB4745-03-A.stp"
 		(offset
 			(xyz 0 -4.15 0)
 		)

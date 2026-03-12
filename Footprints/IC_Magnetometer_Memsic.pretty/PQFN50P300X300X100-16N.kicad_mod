@@ -345,7 +345,7 @@
 		(uuid "55a8b3ca-dee3-4e3f-b8d6-615abc2c9d61")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/kicad_libraries/3DModels/MMC5983MA.step"
+	(model "${CUSTOM_3DMODEL_DIR}/MMC5983MA.step"
 		(offset
 			(xyz 0 0 0)
 		)

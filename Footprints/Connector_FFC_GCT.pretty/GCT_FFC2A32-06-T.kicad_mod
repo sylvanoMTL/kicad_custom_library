@@ -283,7 +283,7 @@
 		(uuid "2ddeca84-daa7-45ae-b382-a42853bcd5ea")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/kicad_libraries/3DModels/FFC2A32-06-T.step"
+	(model "${CUSTOM_3DMODEL_DIR}/FFC2A32-06-T.step"
 		(offset
 			(xyz 0 0 0)
 		)

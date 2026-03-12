@@ -27,7 +27,7 @@
 				(justify left top)
 			)
 		)
-		(property "Footprint" "GCT_USB4056-03-A_REVA2:GCT_USB4056-03-A_REVA2"
+		(property "Footprint" "Connector_USB_GCT:GCT_USB4056-03-A_REVA2"
 			(at 0 0 0)
 			(effects
 				(font

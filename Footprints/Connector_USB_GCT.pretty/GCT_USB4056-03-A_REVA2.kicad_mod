@@ -604,7 +604,7 @@
 		(uuid "e3c0846d-006c-4037-b7d9-0a939ed410eb")
 	)
 	(embedded_fonts no)
-	(model "C:/Git_Repo_Clones/MecaFrog Rowing power meter/Hardware/Rowing Shaft Power Meter NORA W106 - 2026/kicad_libraries/3DModels/USB4056-03-A_REVA2.step"
+	(model "${CUSTOM_3DMODEL_DIR}/USB4056-03-A_REVA2.step"
 		(offset
 			(xyz -2.7 11.5 -4)
 		)

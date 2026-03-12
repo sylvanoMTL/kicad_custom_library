@@ -838,7 +838,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD_MYLABRARY_3DMODEL_DIR}/NORA-W106-00B.step"
+	(model "${CUSTOM_3DMODEL_DIR}/NORA-W106-00B.step"
 		(offset
 			(xyz 0 0 0)
 		)
@@ -849,7 +849,7 @@
 			(xyz -90 -0 -0)
 		)
 	)
-	(model "${KIPRJMOD}/kicad_libraries/3DModels/NORA-W106-10B.step"
+	(model "${CUSTOM_3DMODEL_DIR}/NORA-W106-10B.step"
 		(offset
 			(xyz 0 0 0)
 		)
