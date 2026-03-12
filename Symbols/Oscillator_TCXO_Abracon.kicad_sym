@@ -27,7 +27,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "ABRACON_TCXO:ATXK-H14"
+		(property "Footprint" "Oscillator_TCXO_Abracon:ATXK-H14"
 			(at 13.97 -9.144 0)
 			(effects
 				(font

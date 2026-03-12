@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "MMC5983MA:PQFN50P300X300X100-16N"
+		(property "Footprint" "IC_Magnetometer_Memsic:PQFN50P300X300X100-16N"
 			(at -1.524 -32.512 0)
 			(effects
 				(font

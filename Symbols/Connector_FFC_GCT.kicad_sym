@@ -7,7 +7,7 @@
     (property "Value" "FFC2A32-06-T" (id 1) (at -5.08 -10.16 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    (property "Footprint" "FFC2A32-06-T:GCT_FFC2A32-06-T" (id 2) (at 0 0 0)
+    (property "Footprint" "Connector_FFC_GCT:GCT_FFC2A32-06-T" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "MF" "Global Connector Technology" (id 4) (at 0 0 0)

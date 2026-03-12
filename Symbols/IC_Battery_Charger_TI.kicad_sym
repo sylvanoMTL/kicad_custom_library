@@ -7,7 +7,7 @@
     (property "Value" "BQ25180YBGR" (id 1) (at -10.16 -15.24 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    (property "Footprint" "BQ25180YBGR:IC_BQ25180YBGR" (id 2) (at 0 0 0)
+    (property "Footprint" "IC_Battery_Charger_TI:IC_BQ25180YBGR" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "MF" "Texas Instruments" (id 4) (at 0 0 0)

@@ -27,7 +27,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NORA-W106-00B:XCVR_NORA-W106-00B"
+		(property "Footprint" "IC_Wireless_BLE_uBlox:XCVR_NORA-W106-00B"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1611,7 +1611,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "NORA-W106-00B:XCVR_NORA-W106-00B"
+		(property "Footprint" "IC_Wireless_BLE_uBlox:XCVR_NORA-W106-00B"
 			(at -2.286 20.574 0)
 			(effects
 				(font

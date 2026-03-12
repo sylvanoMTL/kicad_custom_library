@@ -7,7 +7,7 @@
     (property "Value" "MEM2085-00-115-00-A_REV0.2" (id 1) (at -15.24 -17.78 0)
       (effects (font (size 1.27 1.27)) (justify bottom left))
     )
-    (property "Footprint" "MEM2085-00-115-00-A_REV0.2:GCT_MEM2085-00-115-00-A_REV0.2" (id 2) (at 0 0 0)
+    (property "Footprint" "Connector_MicroSD_GCT:GCT_MEM2085-00-115-00-A_REV0.2" (id 2) (at 0 0 0)
       (effects (font (size 1.27 1.27)) (justify bottom) hide)
     )
     (property "MF" "Global Connector Technology" (id 4) (at 0 0 0)
