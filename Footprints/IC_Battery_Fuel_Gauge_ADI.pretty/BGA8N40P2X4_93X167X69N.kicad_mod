@@ -289,7 +289,7 @@
 		(uuid "eb1c44dc-bf19-4054-9d2c-a9446e9822c7")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Custom/3DModels/BGA8N40P2X4_93X167X69N.step"
+	(model "${CUSTOM_3DMODEL_DIR}/BGA8N40P2X4_93X167X69N.step"
 		(offset
 			(xyz 0 0 -0.15)
 		)

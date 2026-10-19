@@ -257,7 +257,7 @@
 		(uuid "e7fa7e66-fe71-4e2e-a63b-837616f21036")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Custom/3DModels/LTC2954IDDB.step"
+	(model "${CUSTOM_3DMODEL_DIR}/LTC2954IDDB.step"
 		(offset
 			(xyz 0 0 0)
 		)

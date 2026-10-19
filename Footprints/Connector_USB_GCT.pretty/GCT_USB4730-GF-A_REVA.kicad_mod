@@ -530,7 +530,7 @@
 		(uuid "99419527-5845-41fe-993b-98c8e8b46290")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Custom/3DModels/USB4730-GF-A_REVA.step"
+	(model "${CUSTOM_3DMODEL_DIR}/USB4730-GF-A_REVA.step"
 		(offset
 			(xyz 0 -3.1 0)
 		)

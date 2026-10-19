@@ -256,7 +256,7 @@
 		(uuid "54a8afd8-be02-4aa1-9726-ce81a87b30b2")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/Custom/3DModels/MAX17048G_T10.step"
+	(model "${CUSTOM_3DMODEL_DIR}/MAX17048G_T10.step"
 		(offset
 			(xyz 0 0 0)
 		)
