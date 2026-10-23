@@ -36,7 +36,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://abracon.com/datasheets/ATX-14.pdf?_gl=1*1nwsd3b*_up*MQ..*_gs*MQ..&gclid=Cj0KCQiA2bTNBhDjARIsAK89wlHb-jxBd7ip2rwppxxPyHyMOyI68aaHbvPmo7EffRrd2_RHSh_TkUMaAi4UEALw_wcB&gbraid=0AAAAADln0ZD_hxUOK3k6j_gTSH5rqbsxD"
+		(property "Datasheet" "https://abracon.com/datasheets/ATXK-H14.pdf"
 			(at -26.416 -18.288 0)
 			(effects
 				(font
@@ -45,7 +45,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Temperature compensated Crystal Clock Oscillator"
+		(property "Description" "32.768kHz TCXO, CMOS output, ±5ppm -40..+85°C, 1.5-3.63V, 2.15x1.35mm"
 			(at -1.27 -20.828 0)
 			(effects
 				(font
@@ -54,7 +54,7 @@
 				(hide yes)
 			)
 		)
-		(property "ki_keywords" "Temperature compensated Crystal Clock Oscillator"
+		(property "Manufacturer" "Abracon"
 			(at 0 0 0)
 			(effects
 				(font
@@ -63,7 +63,16 @@
 				(hide yes)
 			)
 		)
-		(property "ki_fp_filters" "Oscillator*SMD*Fordahl*DFAS2*7.3x5.1mm*"
+		(property "ki_keywords" "tcxo oscillator 32.768kHz 32k rtc cmos abracon"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "ATXK*H14*"
 			(at 0 0 0)
 			(effects
 				(font
@@ -102,7 +111,7 @@
 			(pin input line
 				(at -7.62 0 0)
 				(length 2.54)
-				(name "Ctrl"
+				(name "OE"
 					(effects
 						(font
 							(size 1.27 1.27)
