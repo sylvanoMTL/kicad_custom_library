@@ -3173,7 +3173,7 @@
 					)
 				)
 			)
-			(pin bidirectional line
+			(pin power_out line
 				(at -43.18 2.54 0)
 				(length 5.08)
 				(name "VDD_SPI"
