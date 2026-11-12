@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "1.7x1.6 mm, 0.4 mm pitch, IC_BQ25180YBGR")
+	(tags "IC_BQ25180YBGR P0.4mm")
 	(property "Reference" "REF**"
 		(at 0.472 -2.4864 0)
 		(layer "F.SilkS")

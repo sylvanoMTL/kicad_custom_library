@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "3.6x3 mm, 0.5 mm pitch, PQFN50P300X300X100-16N")
+	(tags "PQFN50P300X300X100-16N P0.5mm")
 	(property "Reference" "REF**"
 		(at -0.226 -2.1868 0)
 		(layer "F.SilkS")

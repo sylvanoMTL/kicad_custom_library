@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "11.2x14.3 mm, 1.1 mm pitch, XCVR_NORA-W106-00B")
+	(tags "XCVR_NORA-W106-00B P1.1mm")
 	(property "Reference" "REF**"
 		(at -2.275 -8.175 0)
 		(layer "F.SilkS")

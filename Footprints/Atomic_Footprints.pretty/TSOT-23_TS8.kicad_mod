@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
+	(descr "2.8x2.9 mm, 0.65 mm pitch, TSOT-23_TS8")
+	(tags "TSOT-23_TS8 P0.65mm")
 	(property "Reference" "REF**"
 		(at -0.7526 -2.0782 0)
 		(layer "F.SilkS")
@@ -560,7 +562,7 @@
 		(uuid "b6471e4a-1786-41b0-9463-3d37d5cc6f65")
 	)
 	(embedded_fonts no)
-	(model "${CUSTOM_3DMODEL_DIR}/LTC2954CTS8.step"
+	(model "${CUSTOM_3DMODEL_DIR}/LTC2954ITS8-1.step"
 		(offset
 			(xyz 0 0 0)
 		)

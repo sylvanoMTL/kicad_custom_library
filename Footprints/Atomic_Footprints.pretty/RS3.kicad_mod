@@ -1,6 +1,6 @@
 (module "RS3" (layer F.Cu)
-  (descr "RS3")
-  (tags "Power Supply")
+  (descr "21.8x9.2 mm, 2.54 mm pitch, RECOM RS3")
+  (tags "Power Supply RS3 P2.54mm")
   (fp_text reference PS** (at -0.77913 6.17233) (layer F.SilkS)
     (effects (font (size 1.27 1.27) (thickness 0.254)))
   )

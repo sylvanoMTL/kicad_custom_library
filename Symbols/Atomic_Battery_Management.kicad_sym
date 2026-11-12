@@ -2,7 +2,330 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "LTC2954-1-DFN8"
+	(symbol "BQ25180YBGR"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "U"
+			(at -10.16 13.462 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "BQ25180YBGR"
+			(at -10.16 -15.24 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" "Atomic_Footprints:IC_BQ25180YBGR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq25180.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "1-A Li-ion and LiFePO4 I²C programmable linear charger with regulated power path, WCSP package"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SNAPEDA_PACKAGE_ID" "123990"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "XFBGA-8 Texas Instruments"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "C"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BQ25180YBGR/Texas+Instruments/view-part/?ref=snap"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MPN" "BQ25180YBGR"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "0.5mm"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "ki_fp_filters" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "ki_keywords" "Battery Management charger I2C IC_BQ25180YBGR TI Texas" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(symbol "BQ25180YBGR_0_0"
+			(rectangle
+				(start -10.16 -12.7)
+				(end 10.16 12.7)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(pin output line
+				(at 15.24 2.54 180)
+				(length 5.08)
+				(name "~{INT}"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "A1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -15.24 10.16 0)
+				(length 5.08)
+				(name "IN"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional clock
+				(at -15.24 2.54 0)
+				(length 5.08)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 10.16 180)
+				(length 5.08)
+				(name "SYS"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 0 0)
+				(length 5.08)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 7.62 180)
+				(length 5.08)
+				(name "BAT"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -15.24 -5.08 0)
+				(length 5.08)
+				(name "TS/MR"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "D1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 15.24 -10.16 180)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "D2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "MAX17048G"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -18,8 +341,8 @@
 				)
 			)
 		)
-		(property "Value" "ltc2954-1"
-			(at 0.254 4.572 0)
+		(property "Value" "MAX17048G"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28,19 +351,8 @@
 				)
 			)
 		)
-		(property "Footprint" "IC_Button_Controller_ADI:DFN-8_DDB"
-			(at -1.27 -3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -1.27 -3.81 0)
+		(property "Footprint" "Atomic_Footprints:SON50P200X200X80-9N"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -50,8 +362,8 @@
 				)
 			)
 		)
-		(property "Description" "Pushbutton On/Off  Controller with µP Interrupt"
-			(at -1.27 -3.81 0)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max17048-max17049.pdf"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -61,10 +373,35 @@
 				)
 			)
 		)
-		(symbol "LTC2954-1-DFN8_0_1"
+		(property "Description" "3μA 1-Cell/2-Cell Fuel Gauge with ModelGauge"
+			(at -0.762 -16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Fuel Gauge Battery Management fuel-gauge SON50P200X200X80-9N ADI Analog Regulator Switching ADC Driver FET Interface UART Linear"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer" "Analog Devices" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "MPN" "MAX17048G" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(symbol "MAX17048G_0_1"
 			(rectangle
-				(start -8.89 10.668)
-				(end 8.89 -11.43)
+				(start -7.366 7.62)
+				(end 7.62 -11.43)
 				(stroke
 					(width 0)
 					(type default)
@@ -74,11 +411,11 @@
 				)
 			)
 		)
-		(symbol "LTC2954-1-DFN8_1_1"
+		(symbol "MAX17048G_1_1"
 			(pin power_in line
-				(at -6.35 -13.97 90)
+				(at 1.27 -13.97 90)
 				(length 2.54)
-				(name "GND"
+				(name "CTG"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -94,9 +431,9 @@
 				)
 			)
 			(pin passive line
-				(at 0 -13.97 90)
+				(at 2.54 10.16 270)
 				(length 2.54)
-				(name "ONT"
+				(name "CELL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -111,10 +448,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -11.43 1.27 0)
+			(pin power_in line
+				(at -2.54 10.16 270)
 				(length 2.54)
-				(name "~{PB}"
+				(name "VDD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -130,9 +467,9 @@
 				)
 			)
 			(pin power_in line
-				(at -11.43 6.35 0)
+				(at 5.08 -13.97 90)
 				(length 2.54)
-				(name "VIN"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -147,10 +484,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 11.43 -5.08 180)
+			(pin output line
+				(at -10.16 -5.08 0)
 				(length 2.54)
-				(name "~{KILL}"
+				(name "~{ALRT}"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -166,9 +503,9 @@
 				)
 			)
 			(pin input line
-				(at 6.35 -13.97 90)
+				(at -10.16 -8.89 0)
 				(length 2.54)
-				(name "PDT"
+				(name "QSTRT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -183,10 +520,10 @@
 					)
 				)
 			)
-			(pin open_collector line
-				(at 11.43 7.62 180)
+			(pin bidirectional line
+				(at -10.16 2.54 0)
 				(length 2.54)
-				(name "EN"
+				(name "SCL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -201,10 +538,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 11.43 1.27 180)
+			(pin bidirectional line
+				(at -10.16 -1.27 0)
 				(length 2.54)
-				(name "~{INT}"
+				(name "SDA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -219,10 +556,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -11.43 -5.08 0)
+			(pin power_in line
+				(at 10.16 -3.81 180)
 				(length 2.54)
-				(name "EPAD"
+				(name "EP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -240,7 +577,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "LTC2954-1-TSOT-23"
+	(symbol "MAX17048X"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -256,8 +593,8 @@
 				)
 			)
 		)
-		(property "Value" "ltc2954-1"
-			(at -1.27 -3.81 0)
+		(property "Value" "MAX17048X"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -266,19 +603,8 @@
 				)
 			)
 		)
-		(property "Footprint" "IC_Button_Controller_ADI:TSOT-23_TS8"
-			(at -1.27 -3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -1.27 -3.81 0)
+		(property "Footprint" "Atomic_Footprints:BGA8N40P2X4_93X167X69N"
+			(at -0.762 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -288,8 +614,8 @@
 				)
 			)
 		)
-		(property "Description" "Pushbutton On/Off  Controller with µP Interrupt"
-			(at -1.27 -3.81 0)
+		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/max17048-max17049.pdf"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -299,10 +625,35 @@
 				)
 			)
 		)
-		(symbol "LTC2954-1-TSOT-23_0_1"
+		(property "Description" "3μA 1-Cell/2-Cell Fuel Gauge with ModelGauge"
+			(at -0.762 -16.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Fuel Gauge Battery Management fuel-gauge BGA8N40P2X4_93X167X69N ADI Analog Regulator Switching ADC Driver FET Interface UART Linear"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer" "Analog Devices" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "MPN" "MAX17048X" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(symbol "MAX17048X_0_1"
 			(rectangle
-				(start -8.89 10.668)
-				(end 8.89 -11.43)
+				(start -7.366 7.62)
+				(end 7.62 -11.43)
 				(stroke
 					(width 0)
 					(type default)
@@ -312,36 +663,18 @@
 				)
 			)
 		)
-		(symbol "LTC2954-1-TSOT-23_1_1"
+		(symbol "MAX17048X_1_1"
 			(pin power_in line
-				(at -11.43 6.35 0)
+				(at 1.27 -13.97 90)
 				(length 2.54)
-				(name "VIN"
+				(name "CTG"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 -3.81 0)
-				(length 2.54)
-				(name "~{PB}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
+				(number "A1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -350,16 +683,16 @@
 				)
 			)
 			(pin passive line
-				(at 0 -13.97 90)
+				(at 2.54 10.16 270)
 				(length 2.54)
-				(name "ONT"
+				(name "CELL"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "3"
+				(number "A2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -368,7 +701,25 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 -13.97 90)
+				(at -2.54 10.16 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 5.08 -13.97 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -377,7 +728,61 @@
 						)
 					)
 				)
-				(number "4"
+				(number "A4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 -1.27 0)
+				(length 2.54)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -10.16 2.54 0)
+				(length 2.54)
+				(name "SCL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -10.16 -8.89 0)
+				(length 2.54)
+				(name "QSTRT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -386,70 +791,16 @@
 				)
 			)
 			(pin output line
-				(at 11.43 1.27 180)
+				(at -10.16 -5.08 0)
 				(length 2.54)
-				(name "~{INT}"
+				(name "~{ALRT}"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 11.43 7.62 180)
-				(length 2.54)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.35 -13.97 90)
-				(length 2.54)
-				(name "PDT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 11.43 -5.08 180)
-				(length 2.54)
-				(name "~{KILL}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
+				(number "B4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -460,7 +811,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "LTC2954-2-DFN8"
+	(symbol "BQ29700"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -476,8 +827,8 @@
 				)
 			)
 		)
-		(property "Value" "ltc2954-2"
-			(at 0.254 4.572 0)
+		(property "Value" "BQ29700"
+			(at 0 2.032 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -486,246 +837,19 @@
 				)
 			)
 		)
-		(property "Footprint" "IC_Button_Controller_ADI:DFN-8_DDB"
-			(at -1.27 -3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at -1.27 -3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Pushbutton On/Off  Controller with µP Interrupt"
-			(at -1.27 -3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "LTC2954-2-DFN8_0_1"
-			(rectangle
-				(start -8.89 10.668)
-				(end 8.89 -11.43)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-		)
-		(symbol "LTC2954-2-DFN8_1_1"
-			(pin power_in line
-				(at -6.35 -13.97 90)
-				(length 2.54)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -13.97 90)
-				(length 2.54)
-				(name "ONT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at -11.43 1.27 0)
-				(length 2.54)
-				(name "~{PB}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at -11.43 6.35 0)
-				(length 2.54)
-				(name "VIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 11.43 -5.08 180)
-				(length 2.54)
-				(name "~{KILL}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.35 -13.97 90)
-				(length 2.54)
-				(name "PDT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin open_collector line
-				(at 11.43 7.62 180)
-				(length 2.54)
-				(name "~{EN}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 11.43 1.27 180)
-				(length 2.54)
-				(name "~{INT}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -11.43 -5.08 0)
-				(length 2.54)
-				(name "EPAD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "LTC2954-2-TSOT-23"
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(duplicate_pin_numbers_are_jumpers no)
-		(property "Reference" "U"
+		(property "Footprint" "Package_SON:WSON-6_1.5x1.5mm_P0.5mm"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "ltc2954-2"
-			(at -1.27 -3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "IC_Button_Controller_ADI:TSOT-23_TS8"
-			(at -1.27 -3.81 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq2970.pdf?ts=1790659285944"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -735,8 +859,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at -1.27 -3.81 0)
+		(property "Description" "BQ297xx Cost-Effective Voltage and Current Protection Integrated Circuit for SingleCell Li-Ion and Li-Polymer Batteries"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -746,35 +870,26 @@
 				)
 			)
 		)
-		(property "Description" "Pushbutton On/Off  Controller with µP Interrupt"
-			(at -1.27 -3.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "LTC2954-2-TSOT-23_0_1"
+		(property "ki_fp_filters" "" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "Manufacturer" "Texas Instruments" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "MPN" "BQ29700" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(property "ki_keywords" "Battery Management TI Texas" (at 0 0 0) (effects (font (size 1.27 1.27)) (hide yes)))
+		(symbol "BQ29700_1_1"
 			(rectangle
-				(start -8.89 10.668)
-				(end 8.89 -11.43)
+				(start -12.7 8.255)
+				(end 12.7 -8.255)
 				(stroke
 					(width 0)
-					(type default)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-		)
-		(symbol "LTC2954-2-TSOT-23_1_1"
-			(pin power_in line
-				(at -11.43 6.35 0)
+			(pin no_connect line
+				(at 15.24 3.81 180)
 				(length 2.54)
-				(name "VIN"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -789,10 +904,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -11.43 -3.81 0)
+			(pin output line
+				(at 6.35 -10.795 90)
 				(length 2.54)
-				(name "~{PB}"
+				(name "COUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -807,10 +922,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 0 -13.97 90)
+			(pin output line
+				(at -6.35 -10.795 90)
 				(length 2.54)
-				(name "ONT"
+				(name "DOUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -826,9 +941,9 @@
 				)
 			)
 			(pin power_in line
-				(at -6.35 -13.97 90)
+				(at -15.24 -2.54 0)
 				(length 2.54)
-				(name "GND"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -843,10 +958,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 11.43 1.27 180)
+			(pin input line
+				(at -15.24 3.81 0)
 				(length 2.54)
-				(name "~{INT}"
+				(name "BATT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -861,10 +976,10 @@
 					)
 				)
 			)
-			(pin open_collector line
-				(at 11.43 7.62 180)
+			(pin input line
+				(at 15.24 -2.54 180)
 				(length 2.54)
-				(name "~{EN}"
+				(name "V-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -872,42 +987,6 @@
 					)
 				)
 				(number "6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 6.35 -13.97 90)
-				(length 2.54)
-				(name "PDT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 11.43 -5.08 180)
-				(length 2.54)
-				(name "~{KILL}"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
 					(effects
 						(font
 							(size 1.27 1.27)

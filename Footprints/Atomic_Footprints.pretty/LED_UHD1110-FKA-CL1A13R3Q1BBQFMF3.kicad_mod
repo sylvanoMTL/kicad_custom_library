@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
+	(descr "1x1 mm, 0.6 mm pitch, Cree LED_UHD1110-FKA-CL1A13R3Q1BBQFMF3")
+	(tags "LED_UHD1110-FKA-CL1A13R3Q1BBQFMF3 P0.6mm")
 	(property "Reference" "REF**"
 		(at 0.224 -1.1048 0)
 		(layer "F.SilkS")

@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "3.1x2.1 mm, 0.5 mm pitch, SON50P200X200X80-9N")
+	(tags "SON50P200X200X80-9N P0.5mm")
 	(property "Reference" "REF**"
 		(at 1.365 -2.017 0)
 		(layer "F.SilkS")
@@ -256,7 +258,7 @@
 		(uuid "54a8afd8-be02-4aa1-9726-ce81a87b30b2")
 	)
 	(embedded_fonts no)
-	(model "${CUSTOM_3DMODEL_DIR}/MAX17048G_T10.step"
+	(model "${CUSTOM_3DMODEL_DIR}/MAX17048G.step"
 		(offset
 			(xyz 0 0 0)
 		)

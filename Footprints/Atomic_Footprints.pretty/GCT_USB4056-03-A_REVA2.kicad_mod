@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "12x10.6 mm, 0.5 mm pitch, GCT_USB4056-03-A_REVA2")
+	(tags "GCT_USB4056-03-A_REVA2 P0.5mm")
 	(property "Reference" "REF**"
 		(at -1.825 -10.635 0)
 		(layer "F.SilkS")
@@ -604,7 +606,7 @@
 		(uuid "e3c0846d-006c-4037-b7d9-0a939ed410eb")
 	)
 	(embedded_fonts no)
-	(model "${CUSTOM_3DMODEL_DIR}/USB4056-03-A_REVA2.step"
+	(model "${CUSTOM_3DMODEL_DIR}/USB4056-03-A.step"
 		(offset
 			(xyz -2.7 11.5 -4)
 		)

@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "12.4x8.1 mm, 0.7 mm pitch, GCT_MEM2085-00-115-00-A_REV0.2")
+	(tags "GCT_MEM2085-00-115-00-A_REV0.2 P0.7mm")
 	(property "Reference" "REF**"
 		(at -3.025 -6.785 0)
 		(layer "F.SilkS")
@@ -395,7 +397,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${CUSTOM_3DMODEL_DIR}/MEM2085-00-115-00-A_revA.STEP"
+	(model "${CUSTOM_3DMODEL_DIR}/MEM2085-00-115-00-A.STEP"
 		(offset
 			(xyz 0 7.5 0)
 		)

@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "12x9.5 mm, 0.5 mm pitch, GCT_USB4745-03-A_REVA")
+	(tags "GCT_USB4745-03-A_REVA P0.5mm")
 	(property "Reference" "REF**"
 		(at -2 -7.605 0)
 		(layer "F.SilkS")

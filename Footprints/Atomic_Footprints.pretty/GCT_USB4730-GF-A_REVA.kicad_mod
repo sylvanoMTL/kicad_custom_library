@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "12.8x9.5 mm, 0.5 mm pitch, GCT_USB4730-GF-A_REVA")
+	(tags "GCT_USB4730-GF-A_REVA P0.5mm")
 	(property "Reference" "REF**"
 		(at -3.3 -8.44 0)
 		(layer "F.SilkS")
@@ -530,7 +532,7 @@
 		(uuid "99419527-5845-41fe-993b-98c8e8b46290")
 	)
 	(embedded_fonts no)
-	(model "${CUSTOM_3DMODEL_DIR}/USB4730-GF-A_REVA.step"
+	(model "${CUSTOM_3DMODEL_DIR}/USB4730-GF-A.step"
 		(offset
 			(xyz 0 -3.1 0)
 		)

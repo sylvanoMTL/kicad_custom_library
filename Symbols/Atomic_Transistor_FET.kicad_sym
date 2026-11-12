@@ -31,7 +31,7 @@
 				)
 			)
 		)
-		(property "Footprint" "IC_PowerManagementMosfet_TI:WSON_DLV_6"
+		(property "Footprint" "Atomic_Footprints:WSON_DLV_6"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -55,7 +55,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Dual N-channel 20 V NexFET power MOSFET, 2x2 mm WSON-6"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -66,7 +66,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "TI"
+		(property "Manufacturer" "Texas Instruments"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -100,7 +100,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "CSD85301Q2"
+		(property "ki_keywords" "CSD85301Q2 Transistor FET MOSFET N-channel WSON_DLV_6 TI Texas Diode"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)

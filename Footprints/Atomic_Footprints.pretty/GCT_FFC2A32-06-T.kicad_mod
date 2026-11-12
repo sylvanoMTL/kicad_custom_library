@@ -3,6 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "10.1x4.5 mm, 1 mm pitch, GCT_FFC2A32-06-T")
+	(tags "GCT_FFC2A32-06-T P1mm")
 	(property "Reference" "REF**"
 		(at -2.075 -3.635 0)
 		(layer "F.SilkS")
