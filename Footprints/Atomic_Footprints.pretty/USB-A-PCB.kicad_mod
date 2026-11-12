@@ -1,0 +1,130 @@
+(footprint "USB-A-PCB"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(descr "CARD-EDGE USB A CONNECTOR.")
+	(tags "CARD-EDGE USB A CONNECTOR.")
+	(property "Reference" "REF**"
+		(at -0.254 -5.2832 0)
+		(layer "B.SilkS")
+		(uuid "2a721000-d268-4606-8bf7-5b207462d368")
+		(effects
+			(font
+				(size 0.4064 0.4064)
+				(thickness 0.0254)
+			)
+		)
+	)
+	(property "Value" ">VALUE"
+		(at -0.0508 4.8768 0)
+		(layer "B.SilkS")
+		(uuid "5c021b3d-eaef-4085-8bc3-e75a2fa3bdca")
+		(effects
+			(font
+				(size 0.4064 0.4064)
+				(thickness 0.0254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "53bfc4bd-e711-4c0a-b5a4-39429036e449")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dd0e85cc-ec38-4d20-9a58-36d5cb7c6e29")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd exclude_from_bom)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -4.99872 -5.99948)
+		(end 3.69824 -5.99948)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7592648f-e3d7-46a2-96db-d56dfce48880")
+	)
+	(fp_line
+		(start -4.99872 5.99948)
+		(end -4.99872 -5.99948)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9da67a1a-ccd5-468b-be0a-e76776952e61")
+	)
+	(fp_line
+		(start 3.69824 -5.99948)
+		(end 3.69824 5.99948)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "45759576-6f3a-4713-8968-62c3d4a452a5")
+	)
+	(fp_line
+		(start 3.69824 5.99948)
+		(end -4.99872 5.99948)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "390ab3a8-b967-4904-80ae-4ad1e6877645")
+	)
+	(fp_text user "Card edge"
+		(at -6.858 -0.762 90)
+		(layer "B.SilkS")
+		(uuid "2b957cbd-5275-4d9d-8b46-00fff66e4fcc")
+		(effects
+			(font
+				(size 1.016 1.016)
+				(thickness 0.0762)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.19812 3.49758)
+		(size 7.49808 1.4986)
+		(layers "F.Cu" "F.Mask")
+		(uuid "1b043bd6-16ef-40fd-8528-332f57b5574f")
+	)
+	(pad "2" smd rect
+		(at 0.29972 0.99822)
+		(size 6.49986 0.99822)
+		(layers "F.Cu" "F.Mask")
+		(uuid "eadcd012-29d6-4290-91cf-cff7239050fc")
+	)
+	(pad "3" smd rect
+		(at 0.29972 -0.99822)
+		(size 6.49986 0.99822)
+		(layers "F.Cu" "F.Mask")
+		(uuid "9503396d-2a86-484d-88f4-99199d0973c6")
+	)
+	(pad "4" smd rect
+		(at -0.19812 -3.49758)
+		(size 7.49808 1.4986)
+		(layers "F.Cu" "F.Mask")
+		(uuid "51296b33-7988-4a89-a539-7ac939ebbcb6")
+	)
+	(embedded_fonts no)
+)
